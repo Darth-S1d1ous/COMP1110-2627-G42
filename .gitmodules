@@ -1,3 +1,6 @@
 [submodule "thirdparty/MoSTScenario"]
 	path = thirdparty/MoSTScenario
 	url = https://github.com/lcodeca/MoSTScenario
+[submodule "comp1110-gp"]
+	path = comp1110-gp
+	url = https://gitlab.com/Ayiinnn/comp1110-gp
