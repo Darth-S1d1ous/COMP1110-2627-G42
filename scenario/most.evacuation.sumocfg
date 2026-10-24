@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../thirdparty/MoSTScenario/scenario/in/most.net.xml"/>
+        <route-files value="in/route/evacuation.flows.xml,in/route/background.highway.flows.xml"/>
+        <additional-files value="../thirdparty/MoSTScenario/scenario/in/add/basic.vType.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="evacuation.tripinfo.xml"/>
+        <summary-output value="evacuation.summary.xml"/>
+    </output>
+
+    <time>
+        <!-- 0 秒 = 活动结束。车辆在前 10 分钟出发，模拟跑满 1 小时让它们离开路网。 -->
+        <begin value="0"/>
+        <step-length value="1"/>
+        <end value="3600"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="false"/>
+        <time-to-teleport value="180"/>
+        <max-depart-delay value="900"/>
+        <collision.action value="teleport"/>
+    </processing>
+
+    <routing>
+        <!-- 关掉场景自带的每 300 秒重路由，否则 from/to 指定的出口会被 SUMO 自己改掉。 -->
+        <device.rerouting.probability value="0"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <log value="evacuation.sim.log"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+</configuration>

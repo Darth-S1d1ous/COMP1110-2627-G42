@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!--
+        共同起点：Stade Louis II，丰维耶，43.7276°N, 7.4155°E。
+        发车边 152886#1 上 150 米处，是球场中心约 84 米外最近的一条可通行道路。
+        每个方向 120 辆，每 5 秒一辆，两个方向错开 2 秒，避免同一时刻插进同一位置。
+        出发时刻：0,5,...,595 与 2,7,...,597。合计 240 辆。
+    -->
+    <flow id="evac_to_france" type="passenger" from="152886#1" to="152323#1"
+          begin="0" end="600" period="5" departPos="150" departLane="best"/>
+    <flow id="evac_to_italy" type="passenger" from="152886#1" to="152273"
+          begin="2" end="602" period="5" departPos="150" departLane="best"/>
+</routes>

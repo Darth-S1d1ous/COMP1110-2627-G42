@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!--
+        原 most.highway.flows.xml 是 5:00–11:30、每 30 秒一辆。
+        这里只留过境车，并且放到同一小时内：每 120 秒一辆，每个方向约 30 辆。
+    -->
+    <flow id="bg_france_italy" type="passenger" from="152525#0" to="152273"
+          begin="0" end="3600" period="120" departLane="best"/>
+    <flow id="bg_italy_france" type="passenger" from="152272" to="152323#1"
+          begin="60" end="3600" period="120" departLane="best"/>
+</routes>

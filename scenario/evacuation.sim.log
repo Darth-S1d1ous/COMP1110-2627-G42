@@ -1,0 +1,343 @@
+Loading net-file from '../thirdparty/MoSTScenario/scenario/in/most.net.xml' ... done (1421ms).
+Loading additional-files from '../thirdparty/MoSTScenario/scenario/in/add/basic.vType.xml' ...
+Warning: Value of tau=0.50 in vehicle type 'bus' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'taxi' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'uber' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'motorcycle' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'moped' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'passenger1' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'passenger2a' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'passenger2b' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'passenger3' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'passenger4' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'emergency' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'authority' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'army' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'delivery' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'truck' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'trailer' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'coach' lower than simulation step size may cause collisions.
+Warning: Value of tau=0.50 in vehicle type 'evehicle' lower than simulation step size may cause collisions.
+ done (3ms).
+Loading route-files incrementally from 'in/route/evacuation.flows.xml'
+Loading route-files incrementally from 'in/route/background.highway.flows.xml'
+Loading done.
+Simulation started with time: 0.00.
+Warning: Teleporting vehicle 'evac_to_italy.2'; collision with vehicle 'evac_to_france.2', lane='152983_1', gap=-0.59, time=30.00, stage=move.
+Warning: Vehicle 'evac_to_italy.2' ends teleporting on edge '152982#3', time=32.00.
+Warning: Teleporting vehicle 'evac_to_france.3'; junction collision with vehicle 'evac_to_france.2', lane=':133568_0_0', gap=-0.82, time=35.00, stage=move.
+Warning: Vehicle 'evac_to_france.3' ends teleporting on edge '152982#4', time=39.00.
+Warning: Teleporting vehicle 'evac_to_france.6'; collision with vehicle 'evac_to_italy.5', lane='152983_1', gap=-2.03, time=46.00, stage=move.
+Warning: Vehicle 'evac_to_france.6' ends teleporting on edge '152973', time=51.00.
+Warning: Teleporting vehicle 'evac_to_italy.5'; collision with vehicle 'evac_to_france.5', lane='152982#3_1', gap=-1.68, time=53.00, stage=move.
+Warning: Vehicle 'evac_to_italy.5' ends teleporting on edge '-152900#1', time=53.00.
+Warning: Teleporting vehicle 'evac_to_france.10'; collision with vehicle 'evac_to_italy.9', lane='152983_1', gap=-1.65, time=67.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.6'; junction collision with vehicle 'evac_to_france.2', lane=':136276_3_0', gap=-0.46, time=67.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.8'; collision with vehicle 'evac_to_france.8', lane='152982#3_1', gap=-0.96, time=69.00, stage=move.
+Warning: Vehicle 'evac_to_france.6' ends teleporting on edge '-153476#0', time=69.00.
+Warning: Vehicle 'evac_to_italy.8' ends teleporting on edge '-152900#1', time=69.00.
+Warning: Vehicle 'evac_to_france.10' ends teleporting on edge '152973', time=73.00.
+Warning: Teleporting vehicle 'evac_to_italy.11'; collision with vehicle 'evac_to_france.11', lane='152983_1', gap=-2.34, time=76.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.12'; collision with vehicle 'evac_to_italy.11', lane='152983_1', gap=-0.36, time=76.00, stage=move.
+Warning: Vehicle 'evac_to_italy.11' ends teleporting on edge '152982#3', time=76.00.
+Warning: Vehicle 'evac_to_france.12' ends teleporting on edge '152982#4', time=79.00.
+Warning: Teleporting vehicle 'evac_to_italy.7'; collision with vehicle 'evac_to_italy.8', lane='-152900#0_1', gap=-0.36, time=83.00, stage=move.
+Warning: Vehicle 'evac_to_italy.7' ends teleporting on edge '152975#3', time=83.00.
+Warning: Teleporting vehicle 'evac_to_france.13'; junction collision with vehicle 'evac_to_italy.12', lane=':133568_0_0', gap=-1.94, time=84.00, stage=move.
+Warning: Vehicle 'evac_to_france.13' ends teleporting on edge '152982#4', time=87.00.
+Warning: Teleporting vehicle 'evac_to_france.14'; junction collision with vehicle 'evac_to_italy.13', lane=':133568_0_0', gap=-0.45, time=90.00, stage=move.
+Warning: Vehicle 'evac_to_france.14' ends teleporting on edge '152982#4', time=94.00.
+Warning: Teleporting vehicle 'evac_to_france.15'; collision with vehicle 'evac_to_italy.14', lane='152982#3_1', gap=-0.58, time=99.00, stage=move.
+Warning: Vehicle 'evac_to_france.15' ends teleporting on edge '152982#4', time=99.00.
+Warning: Teleporting vehicle 'evac_to_france.6'; collision with vehicle 'evac_to_france.3', lane='152419#1_2', gap=-0.70, time=103.00, stage=move.
+Warning: Vehicle 'evac_to_france.6' ends teleporting on edge '152281', time=103.00.
+Warning: Teleporting vehicle 'evac_to_france.17'; collision with vehicle 'evac_to_italy.16', lane='152982#3_1', gap=-0.82, time=108.00, stage=move.
+Warning: Vehicle 'evac_to_france.17' ends teleporting on edge '152982#4', time=108.00.
+Warning: Teleporting vehicle 'evac_to_france.19'; collision with vehicle 'evac_to_italy.18', lane='152983_1', gap=-0.56, time=113.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.4'; collision with vehicle 'evac_to_france.2', lane='152419#1_2', gap=-0.90, time=115.00, stage=move.
+Warning: Vehicle 'evac_to_france.4' ends teleporting on edge '152281', time=115.00.
+Warning: Vehicle 'evac_to_france.19' ends teleporting on edge '152982#4', time=116.00.
+Warning: Teleporting vehicle 'evac_to_italy.21'; collision with vehicle 'evac_to_france.21', lane='152983_1', gap=-1.55, time=124.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.20'; collision with vehicle 'evac_to_italy.19', lane='152982#3_1', gap=-0.39, time=125.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.2'; collision with vehicle 'evac_to_italy.1', lane='152297#1_0', gap=-0.68, time=125.00, stage=move.
+Warning: Vehicle 'evac_to_italy.2' ends teleporting on edge '152967', time=125.00.
+Warning: Vehicle 'evac_to_france.20' ends teleporting on edge '152982#4', time=125.00.
+Warning: Vehicle 'evac_to_italy.21' ends teleporting on edge '-152900#1', time=127.00.
+Warning: Teleporting vehicle 'evac_to_france.10'; collision with vehicle 'evac_to_france.7', lane='152419#1_2', gap=-3.74, time=132.00, stage=move.
+Warning: Vehicle 'evac_to_france.10' ends teleporting on edge '152281', time=132.00.
+Warning: Teleporting vehicle 'evac_to_france.24'; collision with vehicle 'evac_to_italy.23', lane='152982#3_1', gap=-0.78, time=143.00, stage=move.
+Warning: Vehicle 'evac_to_france.24' ends teleporting on edge '152982#4', time=143.00.
+Warning: Teleporting vehicle 'evac_to_italy.14'; collision with vehicle 'evac_to_italy.13', lane='152883#1_1', gap=-1.99, time=149.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.11'; collision with vehicle 'evac_to_france.13', lane='152419#1_2', gap=-0.42, time=150.00, stage=move.
+Warning: Vehicle 'evac_to_france.11' ends teleporting on edge '152281', time=150.00.
+Warning: Vehicle 'evac_to_italy.14' ends teleporting on edge '152874#1', time=153.00.
+Warning: Teleporting vehicle 'evac_to_italy.19'; collision with vehicle 'evac_to_italy.18', lane='152975#4_1', gap=-0.24, time=157.00, stage=move.
+Warning: Vehicle 'evac_to_italy.19' ends teleporting on edge '152883#0', time=157.00.
+Warning: Vehicle 'evac_to_france.30' performs emergency braking on lane '152983_1' with decel=9.00, wished=4.50, severity=1.00, time=168.00.
+Warning: Teleporting vehicle 'evac_to_france.30'; collision with vehicle 'evac_to_italy.29', lane='152983_1', gap=-1.58, time=168.00, stage=move.
+Warning: Vehicle 'evac_to_france.30' ends teleporting on edge '152982#3', time=168.00.
+Warning: Teleporting vehicle 'evac_to_france.19'; collision with vehicle 'evac_to_france.16', lane='152419#1_2', gap=-0.44, time=179.00, stage=move.
+Warning: Vehicle 'evac_to_france.19' ends teleporting on edge '152281', time=179.00.
+Warning: Teleporting vehicle 'evac_to_france.35'; collision with vehicle 'evac_to_italy.34', lane='152886#1_1', gap=-0.60, time=180.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.32'; junction collision with vehicle 'evac_to_france.31', lane=':133568_0_0', gap=-0.24, time=180.00, stage=move.
+Warning: Vehicle 'evac_to_france.35' ends teleporting on edge '152983', time=180.00.
+Warning: Vehicle 'evac_to_france.32' ends teleporting on edge '152982#4', time=183.00.
+Warning: Teleporting vehicle 'evac_to_italy.23'; collision with vehicle 'evac_to_italy.22', lane='152883#2_1', gap=-0.25, time=193.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.35'; collision with vehicle 'evac_to_france.33', lane='152982#3_1', gap=-1.18, time=197.00, stage=move.
+Warning: Vehicle 'evac_to_france.35' ends teleporting on edge '152982#4', time=197.00.
+Warning: Vehicle 'evac_to_italy.23' ends teleporting on edge '153638', time=198.00.
+Warning: Teleporting vehicle 'evac_to_italy.13'; collision with vehicle 'evac_to_italy.12', lane='152297#1_0', gap=-0.25, time=201.00, stage=move.
+Warning: Vehicle 'evac_to_italy.13' ends teleporting on edge '152967', time=201.00.
+Warning: Teleporting vehicle 'evac_to_france.36'; collision with vehicle 'evac_to_italy.35', lane='152982#3_1', gap=-0.20, time=207.00, stage=move.
+Warning: Vehicle 'evac_to_france.5' performs emergency braking on lane '152281_0' with decel=9.00, wished=4.50, severity=1.00, time=208.00.
+Warning: Vehicle 'evac_to_france.36' ends teleporting on edge '152982#4', time=208.00.
+Warning: Teleporting vehicle 'evac_to_france.23'; collision with vehicle 'evac_to_france.24', lane='152419#1_2', gap=-1.18, time=211.00, stage=move.
+Warning: Vehicle 'evac_to_france.23' ends teleporting on edge '152281', time=211.00.
+Warning: Vehicle 'evac_to_italy.17' performs emergency braking on lane '152297#1_0' with decel=9.00, wished=4.50, severity=1.00, time=213.00.
+Warning: Teleporting vehicle 'evac_to_italy.42'; collision with vehicle 'evac_to_france.42', lane='152886#1_1', gap=-0.53, time=217.00, stage=move.
+Warning: Vehicle 'evac_to_italy.42' ends teleporting on edge '152983', time=218.00.
+Warning: Teleporting vehicle 'evac_to_france.15'; junction collision with vehicle 'evac_to_france.14', lane=':150890_0_1', gap=-1.63, time=220.00, stage=move.
+Warning: Vehicle 'evac_to_france.15' ends teleporting on edge '152530', time=221.00.
+Warning: Teleporting vehicle 'evac_to_italy.21'; collision with vehicle 'evac_to_italy.17', lane='152967_1', gap=-0.81, time=226.00, stage=move.
+Warning: Vehicle 'evac_to_italy.21' ends teleporting on edge '152816#2', time=226.00.
+Warning: Teleporting vehicle 'evac_to_italy.39'; collision with vehicle 'evac_to_france.39', lane='152982#3_1', gap=-0.88, time=227.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.41'; collision with vehicle 'evac_to_italy.42', lane='152983_1', gap=-1.12, time=227.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.44'; collision with vehicle 'evac_to_france.44', lane='152886#1_1', gap=-0.04, time=227.00, stage=move.
+Warning: Vehicle 'evac_to_italy.39' ends teleporting on edge '-152900#1', time=227.00.
+Warning: Vehicle 'evac_to_italy.44' ends teleporting on edge '152983', time=227.00.
+Warning: Teleporting vehicle 'evac_to_france.36'; junction collision with vehicle 'evac_to_france.34', lane=':136276_3_0', gap=-1.17, time=231.00, stage=move.
+Warning: Vehicle 'evac_to_france.41' ends teleporting on edge '152973', time=232.00.
+Warning: Vehicle 'evac_to_france.36' ends teleporting on edge '-153476#0', time=233.00.
+Warning: Teleporting vehicle 'evac_to_france.27'; collision with vehicle 'evac_to_france.26', lane='152419#1_2', gap=-1.57, time=235.00, stage=move.
+Warning: Vehicle 'evac_to_france.27' ends teleporting on edge '152281', time=235.00.
+Warning: Teleporting vehicle 'evac_to_france.30'; collision with vehicle 'evac_to_france.28', lane='152419#1_2', gap=-0.06, time=237.00, stage=move.
+Warning: Vehicle 'evac_to_france.30' ends teleporting on edge '152281', time=237.00.
+Warning: Teleporting vehicle 'evac_to_france.32'; collision with vehicle 'evac_to_france.29', lane='152419#1_2', gap=-1.79, time=241.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.47'; collision with vehicle 'evac_to_france.47', lane='152886#1_1', gap=-0.71, time=241.00, stage=move.
+Warning: Vehicle 'evac_to_france.32' ends teleporting on edge '152281', time=241.00.
+Warning: Vehicle 'evac_to_italy.47' ends teleporting on edge '152873#0', time=241.00.
+Warning: Teleporting vehicle 'evac_to_italy.17'; collision with vehicle 'evac_to_italy.21', lane='152816#5_2', gap=-1.29, time=257.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.10'; collision with vehicle 'evac_to_italy.15', lane='152816#5_1', gap=-1.73, time=257.00, stage=move.
+Warning: Vehicle 'evac_to_italy.10' ends teleporting on edge '-152810#2', time=257.00.
+Warning: Vehicle 'evac_to_italy.17' ends teleporting on edge '-152810#2', time=257.00.
+Warning: Teleporting vehicle 'evac_to_france.2'; collision with vehicle 'evac_to_france.7', lane='-152330#1_1', gap=-1.54, time=259.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.16'; collision with vehicle 'evac_to_italy.21', lane='152816#5_2', gap=-0.07, time=259.00, stage=move.
+Warning: Vehicle 'evac_to_france.2' ends teleporting on edge '-152330#0', time=259.00.
+Warning: Vehicle 'evac_to_italy.16' ends teleporting on edge '-152810#2', time=259.00.
+Warning: Teleporting vehicle 'evac_to_italy.36'; collision with vehicle 'evac_to_italy.33', lane='-152451_1', gap=-1.33, time=260.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.51'; collision with vehicle 'evac_to_italy.50', lane='152886#1_1', gap=-0.65, time=260.00, stage=move.
+Warning: Vehicle 'evac_to_italy.36' ends teleporting on edge '152874#1', time=260.00.
+Warning: Vehicle 'evac_to_france.51' ends teleporting on edge '152983', time=260.00.
+Warning: Teleporting vehicle 'evac_to_france.47'; collision with vehicle 'evac_to_france.46', lane='152982#3_1', gap=-1.38, time=261.00, stage=move.
+Warning: Vehicle 'evac_to_france.47' ends teleporting on edge '152982#4', time=261.00.
+Warning: Teleporting vehicle 'evac_to_italy.23'; collision with vehicle 'evac_to_italy.21', lane='152816#5_2', gap=-1.29, time=266.00, stage=move.
+Warning: Vehicle 'evac_to_italy.23' ends teleporting on edge '-152810#2', time=266.00.
+Warning: Teleporting vehicle 'evac_to_france.51'; collision with vehicle 'evac_to_france.49', lane='152983_1', gap=-0.24, time=267.00, stage=move.
+Warning: Vehicle 'evac_to_france.51' ends teleporting on edge '152982#3', time=267.00.
+Warning: Teleporting vehicle 'evac_to_italy.52'; collision with vehicle 'evac_to_france.52', lane='152886#1_1', gap=-0.42, time=268.00, stage=move.
+Warning: Vehicle 'evac_to_italy.52' ends teleporting on edge '152873#0', time=268.00.
+Warning: Teleporting vehicle 'evac_to_france.1'; collision with vehicle 'evac_to_france.0', lane='-152330#0_1', gap=-0.37, time=276.00, stage=move.
+Warning: Vehicle 'evac_to_france.1' ends teleporting on edge '153637', time=276.00.
+Warning: Teleporting vehicle 'evac_to_italy.11'; collision with vehicle 'evac_to_italy.7', lane='-152716_1', gap=-0.43, time=286.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.24'; collision with vehicle 'evac_to_italy.22', lane='152816#5_2', gap=-0.87, time=286.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.38'; collision with vehicle 'evac_to_france.37', lane='152419#1_2', gap=-3.10, time=286.00, stage=move.
+Warning: Vehicle 'evac_to_italy.11' ends teleporting on edge '-152767#3', time=286.00.
+Warning: Vehicle 'evac_to_italy.24' ends teleporting on edge '-152810#2', time=286.00.
+Warning: Vehicle 'evac_to_france.38' ends teleporting on edge '152281', time=286.00.
+Warning: Teleporting vehicle 'evac_to_italy.25'; collision with vehicle 'evac_to_italy.22', lane='152816#5_2', gap=-0.49, time=287.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.20'; collision with vehicle 'evac_to_italy.18', lane='152816#5_1', gap=-1.97, time=287.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.40'; collision with vehicle 'evac_to_italy.33', lane='-152451_1', gap=-0.92, time=287.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.56'; collision with vehicle 'evac_to_italy.55', lane='152886#1_1', gap=-0.55, time=287.00, stage=move.
+Warning: Vehicle 'evac_to_italy.20' ends teleporting on edge '-152810#2', time=287.00.
+Warning: Vehicle 'evac_to_italy.25' ends teleporting on edge '-152810#2', time=287.00.
+Warning: Vehicle 'evac_to_italy.40' ends teleporting on edge '152874#1', time=287.00.
+Warning: Vehicle 'evac_to_france.56' ends teleporting on edge '152983', time=287.00.
+Warning: Teleporting vehicle 'evac_to_italy.41'; collision with vehicle 'evac_to_italy.33', lane='-152451_1', gap=-0.08, time=289.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.52'; collision with vehicle 'evac_to_italy.49', lane='-152646_1', gap=-0.55, time=292.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.26'; collision with vehicle 'evac_to_italy.22', lane='152816#5_2', gap=-2.00, time=292.00, stage=move.
+Warning: Vehicle 'evac_to_italy.26' ends teleporting on edge '-152810#2', time=292.00.
+Warning: Vehicle 'evac_to_italy.41' ends teleporting on edge '153638', time=292.00.
+Warning: Vehicle 'evac_to_italy.52' ends teleporting on edge '-152398#1', time=292.00.
+Warning: Teleporting vehicle 'evac_to_italy.36'; collision with vehicle 'evac_to_italy.30', lane='152297#1_0', gap=-0.52, time=293.00, stage=move.
+Warning: Vehicle 'evac_to_italy.36' ends teleporting on edge '152967', time=293.00.
+Warning: Teleporting vehicle 'evac_to_italy.43'; collision with vehicle 'evac_to_italy.33', lane='-152451_1', gap=-0.65, time=294.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.12'; collision with vehicle 'evac_to_italy.13', lane='152775#0_2', gap=-3.33, time=295.00, stage=move.
+Warning: Vehicle 'evac_to_italy.12' ends teleporting on edge '-152381', time=295.00.
+Warning: Teleporting vehicle 'evac_to_italy.58'; collision with vehicle 'evac_to_france.58', lane='152886#1_1', gap=-0.68, time=297.00, stage=move.
+Warning: Vehicle 'evac_to_italy.43' ends teleporting on edge '153638', time=297.00.
+Warning: Vehicle 'evac_to_italy.58' ends teleporting on edge '152873#0', time=297.00.
+Warning: Teleporting vehicle 'evac_to_france.4'; collision with vehicle 'evac_to_france.10', lane='-152330#0_1', gap=-1.52, time=303.00, stage=move.
+Warning: Vehicle 'evac_to_france.4' ends teleporting on edge '153637', time=303.00.
+Warning: Teleporting vehicle 'evac_to_france.55'; collision with vehicle 'evac_to_france.56', lane='152982#4_1', gap=-0.22, time=304.00, stage=move.
+Warning: Vehicle 'evac_to_france.55' ends teleporting on edge '152973', time=304.00.
+Warning: Teleporting vehicle 'evac_to_italy.47'; collision with vehicle 'evac_to_italy.33', lane='-152451_1', gap=-0.51, time=309.00, stage=move.
+Warning: Vehicle 'evac_to_italy.47' ends teleporting on edge '152874#1', time=309.00.
+Warning: Teleporting vehicle 'evac_to_italy.23'; collision with vehicle 'evac_to_italy.16', lane='152775#0_2', gap=-0.02, time=311.00, stage=move.
+Warning: Vehicle 'evac_to_italy.23' ends teleporting on edge '-152381', time=311.00.
+Warning: Teleporting vehicle 'evac_to_italy.21'; collision with vehicle 'evac_to_italy.16', lane='152775#0_2', gap=-0.03, time=313.00, stage=move.
+Warning: Vehicle 'evac_to_italy.21' ends teleporting on edge '-152381', time=313.00.
+Warning: Teleporting vehicle 'evac_to_france.23'; collision with vehicle 'evac_to_france.21', lane='-152330#1_2', gap=-1.27, time=314.00, stage=move.
+Warning: Vehicle 'evac_to_france.23' ends teleporting on edge '-152330#0', time=314.00.
+Warning: Teleporting vehicle 'evac_to_france.16'; collision with vehicle 'evac_to_france.17', lane='-152330#1_1', gap=-1.11, time=315.00, stage=move.
+Warning: Vehicle 'evac_to_france.16' ends teleporting on edge '-152330#0', time=315.00.
+Warning: Teleporting vehicle 'evac_to_italy.19'; collision with vehicle 'evac_to_italy.15', lane='152775#0_2', gap=-0.34, time=318.00, stage=move.
+Warning: Vehicle 'evac_to_italy.19' ends teleporting on edge '-152381', time=318.00.
+Warning: Teleporting vehicle 'evac_to_italy.14'; collision with vehicle 'evac_to_italy.9', lane='-152780_1', gap=-1.62, time=319.00, stage=move.
+Warning: Vehicle 'evac_to_italy.14' ends teleporting on edge '-152706#3', time=319.00.
+Warning: Teleporting vehicle 'evac_to_italy.52'; collision with vehicle 'evac_to_italy.46', lane='-152451_1', gap=-0.21, time=320.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.25'; collision with vehicle 'evac_to_france.17', lane='-152330#1_1', gap=-1.91, time=321.00, stage=move.
+Warning: Vehicle 'evac_to_france.25' ends teleporting on edge '-152330#0', time=321.00.
+Warning: Vehicle 'evac_to_italy.52' ends teleporting on edge '153638', time=323.00.
+Warning: Teleporting vehicle 'evac_to_france.7'; collision with vehicle 'evac_to_france.11', lane='-152330#0_1', gap=-0.46, time=324.00, stage=move.
+Warning: Vehicle 'evac_to_france.7' ends teleporting on edge '153637', time=324.00.
+Warning: Teleporting vehicle 'evac_to_italy.61'; collision with vehicle 'evac_to_france.61', lane='152983_1', gap=-1.49, time=325.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.48'; collision with vehicle 'evac_to_italy.46', lane='-152451_1', gap=-0.61, time=326.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.2'; collision with vehicle 'evac_to_france.11', lane='-152330#0_1', gap=-1.99, time=326.00, stage=move.
+Warning: Vehicle 'evac_to_france.2' ends teleporting on edge '153637', time=326.00.
+Warning: Vehicle 'evac_to_italy.48' ends teleporting on edge '152874#1', time=326.00.
+Warning: Teleporting vehicle 'evac_to_france.14'; collision with vehicle 'evac_to_france.15', lane='-152330#0_2', gap=-1.00, time=327.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.12'; collision with vehicle 'evac_to_france.11', lane='-152330#0_1', gap=-0.12, time=327.00, stage=move.
+Warning: Vehicle 'evac_to_france.12' ends teleporting on edge '153637', time=327.00.
+Warning: Vehicle 'evac_to_france.14' ends teleporting on edge '153637', time=327.00.
+Warning: Vehicle 'evac_to_italy.61' ends teleporting on edge '-152900#1', time=328.00.
+Warning: Vehicle 'evac_to_italy.17' performs emergency braking on lane '-152767#2_1' with decel=9.00, wished=4.50, severity=1.00, time=329.00.
+Warning: Teleporting vehicle 'evac_to_italy.49'; collision with vehicle 'evac_to_italy.46', lane='-152451_1', gap=-0.75, time=329.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.8'; collision with vehicle 'evac_to_france.11', lane='-152330#0_1', gap=-1.07, time=329.00, stage=move.
+Warning: Vehicle 'evac_to_france.8' ends teleporting on edge '153637', time=329.00.
+Warning: Vehicle 'evac_to_italy.43' performs emergency braking on lane '152297#1_0' with decel=9.00, wished=4.50, severity=1.00, time=330.00.
+Warning: Teleporting vehicle 'evac_to_italy.12'; collision with vehicle 'evac_to_italy.9', lane='-152780_1', gap=-2.10, time=330.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.60'; junction collision with vehicle 'evac_to_france.59', lane=':142353_2_0', gap=-0.64, time=330.00, stage=move.
+Warning: Vehicle 'evac_to_italy.12' ends teleporting on edge '-152706#3', time=330.00.
+Warning: Teleporting vehicle 'evac_to_france.13'; collision with vehicle 'evac_to_france.11', lane='-152330#0_1', gap=-1.95, time=332.00, stage=move.
+Warning: Vehicle 'evac_to_france.13' ends teleporting on edge '153637', time=332.00.
+Warning: Vehicle 'evac_to_italy.49' ends teleporting on edge '153638', time=332.00.
+Warning: Teleporting vehicle 'evac_to_italy.23'; collision with vehicle 'evac_to_italy.17', lane='-152767#2_1', gap=-0.08, time=333.00, stage=move.
+Warning: Vehicle 'evac_to_italy.23' ends teleporting on edge '-152780', time=333.00.
+Warning: Vehicle 'evac_to_france.60' ends teleporting on edge '152973', time=333.00.
+Warning: Teleporting vehicle 'evac_to_italy.36'; collision with vehicle 'evac_to_italy.28', lane='152816#5_1', gap=-1.16, time=334.00, stage=move.
+Warning: Vehicle 'evac_to_italy.36' ends teleporting on edge '-152810#2', time=334.00.
+Warning: Teleporting vehicle 'evac_to_france.49'; collision with vehicle 'evac_to_france.51', lane='152419#1_2', gap=-0.27, time=337.00, stage=move.
+Warning: Vehicle 'evac_to_france.49' ends teleporting on edge '152281', time=337.00.
+Warning: Teleporting vehicle 'evac_to_italy.22'; collision with vehicle 'evac_to_italy.26', lane='152775#0_2', gap=-0.35, time=339.00, stage=move.
+Warning: Vehicle 'evac_to_italy.22' ends teleporting on edge '-152381', time=339.00.
+Warning: Teleporting vehicle 'evac_to_italy.63'; junction collision with vehicle 'evac_to_france.63', lane=':133568_0_0', gap=-0.63, time=340.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.30'; collision with vehicle 'evac_to_italy.28', lane='152816#5_1', gap=-1.38, time=342.00, stage=move.
+Warning: Vehicle 'evac_to_italy.30' ends teleporting on edge '-152810#2', time=342.00.
+Warning: Vehicle 'evac_to_italy.63' ends teleporting on edge '-152900#1', time=343.00.
+Warning: Teleporting vehicle 'evac_to_italy.17'; collision with vehicle 'evac_to_italy.13', lane='-152780_1', gap=-1.70, time=346.00, stage=move.
+Warning: Vehicle 'evac_to_italy.17' ends teleporting on edge '-152706#3', time=346.00.
+Warning: Teleporting vehicle 'evac_to_italy.27'; collision with vehicle 'evac_to_italy.18', lane='152775#0_2', gap=-0.64, time=347.00, stage=move.
+Warning: Vehicle 'evac_to_italy.27' ends teleporting on edge '-152381', time=347.00.
+Warning: Teleporting vehicle 'evac_to_italy.64'; collision with vehicle 'evac_to_france.64', lane='152982#3_1', gap=-1.59, time=348.00, stage=move.
+Warning: Vehicle 'evac_to_italy.64' ends teleporting on edge '-152900#1', time=348.00.
+Warning: Teleporting vehicle 'evac_to_italy.21'; collision with vehicle 'evac_to_italy.13', lane='-152780_1', gap=-0.25, time=349.00, stage=move.
+Warning: Vehicle 'evac_to_italy.21' ends teleporting on edge '-152706#3', time=349.00.
+Warning: Teleporting vehicle 'evac_to_italy.15'; collision with vehicle 'evac_to_italy.16', lane='-152767#2_1', gap=-3.36, time=350.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.30'; collision with vehicle 'evac_to_france.24', lane='-152330#1_1', gap=-1.69, time=350.00, stage=move.
+Warning: Vehicle 'evac_to_italy.15' ends teleporting on edge '-152780', time=350.00.
+Warning: Vehicle 'evac_to_france.30' ends teleporting on edge '-152330#0', time=350.00.
+Warning: Teleporting vehicle 'evac_to_france.55'; collision with vehicle 'evac_to_france.50', lane='152419#1_2', gap=-0.97, time=352.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.19'; collision with vehicle 'evac_to_italy.13', lane='-152780_1', gap=-1.60, time=352.00, stage=move.
+Warning: Vehicle 'evac_to_italy.19' ends teleporting on edge '-152706#3', time=352.00.
+Warning: Vehicle 'evac_to_france.55' ends teleporting on edge '152281', time=352.00.
+Warning: Teleporting vehicle 'evac_to_italy.17'; collision with vehicle 'evac_to_italy.8', lane='-152706#0_1', gap=-0.72, time=354.00, stage=move.
+Warning: Vehicle 'evac_to_italy.17' ends teleporting on edge '-152999', time=354.00.
+Warning: Vehicle 'evac_to_italy.52' performs emergency braking on lane '152297#1_0' with decel=9.00, wished=4.50, severity=1.00, time=355.00.
+Warning: Teleporting vehicle 'evac_to_italy.67'; collision with vehicle 'evac_to_france.67', lane='152983_1', gap=-0.37, time=355.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.33'; collision with vehicle 'evac_to_italy.52', lane='152297#1_0', gap=-5.50, time=355.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.59'; junction collision with vehicle 'evac_to_france.58', lane=':136276_3_0', gap=-0.54, time=355.00, stage=move.
+Warning: Vehicle 'evac_to_italy.33' ends teleporting on edge '152967', time=355.00.
+Warning: Teleporting vehicle 'evac_to_france.65'; collision with vehicle 'evac_to_france.64', lane='152982#4_1', gap=-0.46, time=356.00, stage=move.
+Warning: Vehicle 'evac_to_france.65' ends teleporting on edge '152973', time=356.00.
+Warning: Vehicle 'evac_to_france.59' ends teleporting on edge '-153476#0', time=357.00.
+Warning: Vehicle 'evac_to_italy.67' ends teleporting on edge '-152900#1', time=358.00.
+Warning: Teleporting vehicle 'evac_to_france.68'; junction collision with vehicle 'evac_to_france.67', lane=':133568_0_0', gap=-1.88, time=361.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.56'; collision with vehicle 'evac_to_italy.55', lane='-152451_1', gap=-0.58, time=365.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.31'; collision with vehicle 'evac_to_italy.25', lane='152546_1', gap=-0.29, time=366.00, stage=move.
+Warning: Vehicle 'evac_to_italy.31' ends teleporting on edge '-152767#2', time=366.00.
+Warning: Vehicle 'evac_to_france.68' ends teleporting on edge '152973', time=366.00.
+Warning: Teleporting vehicle 'evac_to_italy.68'; collision with vehicle 'evac_to_france.67', lane='152982#3_1', gap=-1.47, time=367.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.56'; collision with vehicle 'evac_to_france.54', lane='152419#1_2', gap=-0.72, time=367.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.9'; collision with vehicle 'evac_to_france.19', lane='-152330#0_1', gap=-0.91, time=367.00, stage=move.
+Warning: Vehicle 'evac_to_france.9' ends teleporting on edge '153637', time=367.00.
+Warning: Vehicle 'evac_to_france.56' ends teleporting on edge '152281', time=367.00.
+Warning: Vehicle 'evac_to_italy.68' ends teleporting on edge '-152900#1', time=367.00.
+Warning: Teleporting vehicle 'evac_to_italy.37'; collision with vehicle 'evac_to_italy.35', lane='152816#5_1', gap=-0.08, time=368.00, stage=move.
+Warning: Vehicle 'evac_to_italy.37' ends teleporting on edge '-152810#2', time=368.00.
+Warning: Vehicle 'evac_to_italy.56' ends teleporting on edge '153638', time=368.00.
+Warning: Teleporting vehicle 'evac_to_france.25'; collision with vehicle 'evac_to_france.23', lane='-152330#0_2', gap=-0.57, time=369.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.18'; collision with vehicle 'evac_to_france.19', lane='-152330#0_1', gap=-1.09, time=369.00, stage=move.
+Warning: Vehicle 'evac_to_france.18' ends teleporting on edge '153637', time=369.00.
+Warning: Vehicle 'evac_to_france.25' ends teleporting on edge '153637', time=369.00.
+Warning: Teleporting vehicle 'evac_to_italy.40'; collision with vehicle 'evac_to_italy.35', lane='152816#5_1', gap=-2.06, time=371.00, stage=move.
+Warning: Vehicle 'evac_to_italy.40' ends teleporting on edge '-152810#2', time=371.00.
+Warning: Teleporting vehicle 'evac_to_france.71'; collision with vehicle 'evac_to_italy.70', lane='152983_1', gap=-0.92, time=372.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.46'; collision with vehicle 'evac_to_italy.45', lane='152297#1_0', gap=-0.62, time=372.00, stage=move.
+Warning: Vehicle 'evac_to_italy.46' ends teleporting on edge '152967', time=372.00.
+Warning: Vehicle 'evac_to_france.71' ends teleporting on edge '152982#3', time=372.00.
+Warning: Teleporting vehicle 'evac_to_italy.43'; collision with vehicle 'evac_to_italy.41', lane='152816#5_2', gap=-2.03, time=374.00, stage=move.
+Warning: Vehicle 'evac_to_italy.43' ends teleporting on edge '-152810#2', time=374.00.
+Warning: Teleporting vehicle 'evac_to_italy.24'; collision with vehicle 'evac_to_italy.16', lane='-152706#1_1', gap=-0.94, time=378.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.31'; collision with vehicle 'evac_to_italy.27', lane='-152780_1', gap=-0.11, time=380.00, stage=move.
+Warning: Vehicle 'evac_to_italy.24' ends teleporting on edge '-152706#0', time=380.00.
+Warning: Vehicle 'evac_to_italy.31' ends teleporting on edge '-152706#3', time=380.00.
+Warning: Teleporting vehicle 'evac_to_italy.22'; collision with vehicle 'evac_to_italy.16', lane='-152706#1_1', gap=-1.97, time=382.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.72'; junction collision with vehicle 'evac_to_italy.71', lane=':133568_0_0', gap=-1.40, time=382.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.73'; collision with vehicle 'evac_to_france.73', lane='152983_1', gap=-0.34, time=384.00, stage=move.
+Warning: Vehicle 'evac_to_italy.22' ends teleporting on edge '-152706#0', time=384.00.
+Warning: Teleporting vehicle 'evac_to_italy.31'; collision with vehicle 'evac_to_italy.16', lane='-152706#1_1', gap=-0.59, time=385.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.20'; collision with vehicle 'evac_to_italy.27', lane='-152780_1', gap=-0.12, time=386.00, stage=move.
+Warning: Vehicle 'evac_to_italy.20' ends teleporting on edge '-152706#3', time=386.00.
+Warning: Teleporting vehicle 'evac_to_italy.51'; collision with vehicle 'evac_to_italy.50', lane='152967_1', gap=-2.76, time=387.00, stage=move.
+Warning: Vehicle 'evac_to_italy.51' ends teleporting on edge '152816#2', time=387.00.
+Warning: Vehicle 'evac_to_france.72' ends teleporting on edge '152973', time=387.00.
+Warning: Vehicle 'evac_to_italy.73' ends teleporting on edge '-152900#1', time=387.00.
+Warning: Teleporting vehicle 'evac_to_italy.26'; collision with vehicle 'evac_to_italy.27', lane='-152780_1', gap=-1.79, time=388.00, stage=move.
+Warning: Vehicle 'evac_to_italy.26' ends teleporting on edge '-152706#3', time=388.00.
+Warning: Vehicle 'evac_to_italy.31' ends teleporting on edge '-152999', time=388.00.
+Warning: Teleporting vehicle 'evac_to_france.60'; collision with vehicle 'evac_to_france.57', lane='152419#1_2', gap=-1.22, time=393.00, stage=move.
+Warning: Vehicle 'evac_to_france.60' ends teleporting on edge '152281', time=393.00.
+Warning: Teleporting vehicle 'evac_to_italy.23'; collision with vehicle 'evac_to_italy.17', lane='153415#1_1', gap=-0.42, time=394.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.75'; collision with vehicle 'evac_to_france.75', lane='152983_1', gap=-1.97, time=394.00, stage=move.
+Warning: Vehicle 'evac_to_italy.23' ends teleporting on edge '153331#0', time=394.00.
+Warning: Teleporting vehicle 'evac_to_france.22'; collision with vehicle 'evac_to_france.17', lane='-152330#0_2', gap=-0.57, time=395.00, stage=move.
+Warning: Vehicle 'evac_to_france.22' ends teleporting on edge '153637', time=395.00.
+Warning: Teleporting vehicle 'evac_to_italy.26'; collision with vehicle 'evac_to_italy.20', lane='-152706#0_1', gap=-0.49, time=396.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.20'; collision with vehicle 'evac_to_france.21', lane='-152330#0_1', gap=-0.88, time=396.00, stage=move.
+Warning: Vehicle 'evac_to_france.20' ends teleporting on edge '153637', time=396.00.
+Warning: Vehicle 'evac_to_italy.26' ends teleporting on edge '-152999', time=396.00.
+Warning: Vehicle 'evac_to_italy.56' performs emergency braking on lane '152297#1_0' with decel=9.00, wished=4.50, severity=1.00, time=397.00.
+Warning: Teleporting vehicle 'evac_to_italy.42'; collision with vehicle 'evac_to_italy.33', lane='152816#5_2', gap=-0.22, time=397.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_italy.52'; collision with vehicle 'evac_to_italy.42', lane='152816#5_2', gap=-0.71, time=397.00, stage=move.
+Warning: Vehicle 'evac_to_italy.42' ends teleporting on edge '-152810#2', time=397.00.
+Warning: Vehicle 'evac_to_italy.52' ends teleporting on edge '-152810#2', time=397.00.
+Warning: Vehicle 'evac_to_italy.75' ends teleporting on edge '-152900#1', time=397.00.
+Warning: Vehicle 'evac_to_italy.58' performs emergency braking on lane '152297#1_0' with decel=9.00, wished=4.50, severity=1.00, time=398.00.
+Warning: Teleporting vehicle 'evac_to_italy.73'; collision with vehicle 'evac_to_italy.69', lane='-152900#0_1', gap=-0.16, time=398.00, stage=move.
+Warning: Vehicle 'evac_to_italy.73' ends teleporting on edge '152975#3', time=398.00.
+Warning: Teleporting vehicle 'evac_to_italy.49'; collision with vehicle 'evac_to_italy.33', lane='152816#5_2', gap=-1.16, time=401.00, stage=move.
+Warning: Teleporting vehicle 'evac_to_france.76'; collision with vehicle 'evac_to_france.75', lane='152982#3_1', gap=-1.04, time=401.00, stage=move.
+Warning: Vehicle 'evac_to_italy.49' ends teleporting on edge '-152810#2', time=401.00.
+Warning: Vehicle 'evac_to_france.76' ends teleporting on edge '152973', time=403.00.
+Warning: Teleporting vehicle 'evac_to_italy.21'; collision with vehicle 'evac_to_italy.8', lane='153415#1_1', gap=-0.94, time=405.00, stage=move.
+Warning: Vehicle 'evac_to_italy.21' ends teleporting on edge '153331#0', time=405.00.
+Simulation ended at time: 408.00.
+Performance:
+ Duration: 122.19s
+ Real time factor: 3.33906
+ UPS: 286.725591
+Vehicles:
+ Inserted: 171
+ Running: 169
+ Waiting: 0
+ Teleports: 145 (Collisions: 145)
+ Emergency Braking: 8
+Statistics (avg of 2):
+ RouteLength: 9395.79
+ Speed: 28.85
+ Duration: 328.50
+ WaitingTime: 0.00
+ TimeLoss: 16.81
+ DepartDelay: 0.00
+DijkstraRouter answered 171 queries and explored 2849.31 edges on average.
+DijkstraRouter spent 0.54s answering queries (3.13ms on average).

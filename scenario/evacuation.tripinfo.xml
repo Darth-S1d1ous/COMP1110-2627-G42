@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-24T11:02:22.322145+08:00 by Eclipse SUMO GUI 1.28.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../thirdparty/MoSTScenario/scenario/in/most.net.xml"/>
+        <route-files value="in/route/evacuation.flows.xml,in/route/background.highway.flows.xml"/>
+        <additional-files value="../thirdparty/MoSTScenario/scenario/in/add/basic.vType.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="evacuation.summary.xml"/>
+        <tripinfo-output value="evacuation.tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="false"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="180"/>
+        <max-depart-delay value="900"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.probability value="0"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <log value="evacuation.sim.log"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <delay value="100"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="bg_france_italy.0" depart="0.00" departLane="152525#0_0" departPos="5.10" departSpeed="24.48" departDelay="0.00" arrival="358.00" arrivalLane="152273_0" arrivalPos="522.85" arrivalSpeed="38.81" duration="358.00" routeLength="9345.54" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.92" rerouteNo="1" devices="tripinfo_bg_france_italy.0 routing_bg_france_italy.0" vType="passenger2b" speedFactor="0.88" vaporized=""/>
+    <tripinfo id="bg_italy_france.0" depart="60.00" departLane="152272_0" departPos="5.10" departSpeed="44.44" departDelay="0.00" arrival="359.00" arrivalLane="152323#1_0" arrivalPos="372.48" arrivalSpeed="28.50" duration="299.00" routeLength="9446.04" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="16.71" rerouteNo="1" devices="tripinfo_bg_italy_france.0 routing_bg_italy_france.0" vType="passenger4" speedFactor="1.07" vaporized=""/>
+</tripinfos>
